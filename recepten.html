@@ -32,19 +32,19 @@
                         <p><label>Leeftijd: <input name="Age" type="number"/><small> (leeftijd in jaren)</small></label></p>
                         <p><label>Geboortedatum: <input name="date" type="date"/></label></p>
                         <p><label>Gender:</label>
-                            <input name="btn" type="radio"/><label>Man</label>
-                            <input name="btn" type="radio"/><label>Vrouw</label>
-                            <input name="btn" type="radio"/><label>Geen antwoord</label>
+                            <input name="btn" type="radio" value="man"/><label>Man</label>
+                            <input name="btn" type="radio" value="vrouw"/><label>Vrouw</label>
+                            <input name="btn" type="radio" value="geen antwoord"/><label>Geen antwoord</label>
                         </p>
                         <p><label>Favoriete cuisine:</label>
-                            <input name="cbx1" type="checkbox"/><label>Frans</label>
-                            <input name="cbx2" type="checkbox"/><label>Italiaans</label>
-                            <input name="cbx3" type="checkbox"/><label>Spaans</label>
-                            <input name="cbx4" type="checkbox"/><label>Arabisch</label>
+                            <input name="fr" type="checkbox"/><label>Frans</label>
+                            <input name="it" type="checkbox"/><label>Italiaans</label>
+                            <input name="sp" type="checkbox"/><label>Spaans</label>
+                            <input name="ar" type="checkbox"/><label>Arabisch</label>
                             </p>
                         <p><label>Kies je favoriete kleur schort: <input name="Kleur" type="color" value="#ff0000"></label></p>        
                         <p><label>Biografie: <textarea name="Biografie"></textarea></label></p>
-                        <p><label>Upload je laatste recept: <input name="Uploadrecept" type="file" multiple accept="audio/*"><small>(meerdere bestanden mogelijk)</small></label></p>
+                        <p><label>Upload je laatste recept: <input name="Uploadrecept" type="file" multiple><small>(meerdere bestanden mogelijk)</small></label></p>
                         <p><label>Je recepten website: <input name="Weppage" type="url" pattern="^(http|https|ftp):\/\/.+"><small> Type s.v.p. URL inclusief http://, https:// of ftp://</small></label></p>
                         <p><input type="reset" value="Wis het hele formulier"><small> (reset formulier, maak alle velden leeg)</small></p>
                         <p><button type="submit">Verstuur het formulier</button></p>
