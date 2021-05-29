@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>HTML Opdracht 6 Uitgebreid HTML Formulier</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <header>
+            <img width="200" src="https://global-uploads.webflow.com/5ee34869dd28cd4237e2a5f2/5f58fea7e8de69c05d92390e_cropped-logo%20liggend.png">
+            <h1 class="blue-border">Web Development</h1>
+        </header>
+        <nav>
+            <a href="index.html"><h4>Home</h4></a>
+            <a href="winc.html"><h4>Winc Academy</h4></a>
+            <a href="opleiding.html"><h4>Opleiding</h4></a>
+            <a href="recepten.html"><h4>Recepten</h4></a>
+            <a class="active" href="contact.html" target="_blank"><h4>Contact</h4></a>
+        </nav> 
+        <main>
+            <section>
+                <h2>Contact</h2>
+                Interessante informatie over mij:
+                <ol>
+                    <li>Net begonnen met Winc web development.</li>
+                    <li>De 5de HTML opdracht aan het afronden.</li>
+                </ol>
+                <p>Heb je vragen; neem dan contact op via het volgende formulier:
+                   <form name="contact" method="POST" data-netlify="true">
+                       <p><label>Naam: <input name="Naam" type="name"/></label></p>
+                       <p><label>Email: <input name="Mail" type="email"/></label><br></p>
+                       <p><label>Vraag: <textarea name="Vraag"></textarea></label></p>
+                       <p><button type="submit">Verstuur</button></p>
+                   </form> 
+                </p>
+            </section>
+            <section>
+                <h3>Dit ben ik:</h3>
+                <img alt="Foto Hilda" width="70" src="Foto buiten HK.jpg">
+                <a href="index.html"><h4>Terug naar homepage</h4></a>
+            </section>
+        </main>
+        <aside id="lightblue-background">
+            <br>Advertentie WincAcademy
+            <br><br>
+        </aside>
+        <footer id="grey-background">
+            Contactgegevens: Hilda Kornman WincAcademy
+            Copyright &copy;2021
+        </footer>
+   </body>
+</html>
